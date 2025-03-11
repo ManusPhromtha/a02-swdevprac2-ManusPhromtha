@@ -60,6 +60,12 @@ h1 {
     margin-right: auto;
 }
 
+.summit_button {
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid #AAA;
+}
+
 input[type=text], input[type=tel], input[type=number], select {
     width: 250px;
     padding: 12px 20px;

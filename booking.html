@@ -3,6 +3,7 @@
     <head>
         <title>Booking</title>
         <link rel="stylesheet" href="style.css">
+        <script src="booking.js"></script>
     </head>
 
     <body>
@@ -15,10 +16,12 @@
                 <option value="small">กลุ่มเล็ก (10 – 15 คน)</option>
                 <option value="normal">กลุ่มมาตรฐาน (35-40 คน)</option>
             </select>
-            <input type="checkbox" id="agree" name="agree">Join Land
+            <input type="checkbox" id="agree" name="agree">
+            <label for="agree">Join Land</label>
             <input type="number" id="quantity" name="quantity" min="1" placeholder="จำนวนผู้ร่วมเดินทาง">
             <input type="text" id="contact_name" name="contact_name" placeholder="ชื่อผู้ติดต่อ">
             <input type="tel" id="contact_number" name="contact_number" placeholder="เบอร์ผู้ติดต่อ">
+            <input type="submit" id="summit_button" name="summit_button" onclick="checkList()">
         </div>
         <div class="bottom_id"><span>6733207021 มนัส พรหมทา</span></div>
     </body>
