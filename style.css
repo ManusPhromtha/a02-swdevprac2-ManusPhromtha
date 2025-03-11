@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;400;600&display=swap');
+
+body {
+    font-family: 'Mitr', sans-serif;
+}
+
+.input_detail {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    background: #c9c9c9;
+    color: rgb(0, 0, 0);
+    text-align: right;
+}
+
+.detail {
+    padding: 5px 50px;
+    margin: 50px;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    height: 300px;
+}
+
+table {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    background-color:#f1f1f1;
+    border: 1px solid #030303;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.bottom_id{
+    padding: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text], input[type=tel], input[type=number], select {
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
