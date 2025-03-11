@@ -28,7 +28,11 @@ function boxCheck() {
 }
 
 function checkList() {
-    if (textCheck() && amountCheck() && boxCheck()) {
+    let check = true;
+    if (!textCheck()) check = false;
+    if (!amountCheck()) check = false;
+    boxCheck()
+    if (check) {
         alert("Successfully submitted");
     }
 }
